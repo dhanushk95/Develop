@@ -15,7 +15,7 @@ public class SwapPair {
 			ch[i] = ch[i+1];
 			ch[i+1] = temp;
 		}
-		return new String(ch); 			//Converting result into String and return
+		return new String(ch); 			   	//Converting result into String and return
 	}
 	
 	public static void main(String args[])
