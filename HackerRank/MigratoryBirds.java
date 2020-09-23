@@ -11,7 +11,7 @@ package Hackerrank;
 
 public class MigratoryBirds {
 
-	 static int migratoryBirds(int[] arr) {
+	 static int migratoryBirds(List<Integer> arr) {
 
 	        int max = 0;
 	        int[] count = new int[6];
@@ -29,7 +29,7 @@ public class MigratoryBirds {
 	    }
 	 public static void main(String args[])
 	 {
-		 int arr[] = {1,2,3,2 ,2,1};
+		 List<Integer> list = Arrays.asList(1,2,3,2,1,2);
 		 System.out.println(migratoryBirds(arr));
 		 
 	 }
