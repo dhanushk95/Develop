@@ -14,7 +14,7 @@ public class Fibonacci {
 			
 			num1 = num2;
 			num2 = num3;
-			count +=1;		
+			count++;		
 		}	
 	}
 	public static void main(String args[])
